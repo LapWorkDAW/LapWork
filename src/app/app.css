@@ -1,0 +1,58 @@
+body {
+  margin: initial;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body header {
+  background: #020202c7;
+  color: #fff;
+  height: 40px;
+}
+body header a {
+  margin: unset;
+  font-weight: 400;
+  position: relative;
+  left: 22%;
+  top: 9px;
+  font-size: 15px;
+  width: fit-content;
+  height: fit-content;
+}
+body header img {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  left: 28%;
+  top: 11px;
+}
+body header a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  position: relative;
+  right: -66%;
+  top: -12px;
+  margin: 0px 40px 0px 0px;
+  font-size: 15px;
+  padding: unset;
+}
+body header a:hover {
+  color: #4285F4;
+  transition-timing-function: ease-in;
+}
+body header a:active {
+  color: #8bb5fa;
+}
+body main {
+  text-align: center;
+}
+body main div {
+  position: relative;
+  margin: 52px 0px 10px 0px;
+}
+body main div a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=app.css.map */
