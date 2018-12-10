@@ -8,8 +8,8 @@ body {
         background: #020202c7;
         color: $safetyWhite;
         height: 40px;
-        h2 {
-            margin: unset;
+         h2 {
+            margin: 0px;
             font-weight: 400;
             position: relative;
             left: 22%;
@@ -17,7 +17,7 @@ body {
             font-size: 15px;
             width: fit-content;
             height: fit-content;
-        }
+        } 
         img {
             width: 16px;
             height: 16px;
@@ -29,7 +29,7 @@ body {
         a {
             text-decoration: none;
             cursor: pointer;
-            color: #fff;
+            color: $safetyWhite;
             position: relative;
             right: -66%;
             top: -12px;
@@ -37,11 +37,10 @@ body {
             font-size: 15px;
             padding: unset;
         }
-        a:hover{
+        a:hover {
             color: $safetyBlue;
             transition-timing-function: ease-in;
         }
-
     }
     main {
         text-align: center;
@@ -52,7 +51,7 @@ body {
                 text-decoration: none;
                 cursor: pointer;
             }
-            img{
+            img {
                 margin: 10px 0px 0px 0px;
             }
         }
