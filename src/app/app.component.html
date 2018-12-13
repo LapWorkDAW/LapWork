@@ -7,15 +7,18 @@
   <title>LapWork</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="app.css" />
-  <!--   <script src="main.js"></script>-->
+  <script src="app.component.ts"></script>
   <!-- logo -->
 </head>
 
 <body>
   <header>
     <h2>LapWork</h2>
-    <img src="/src/icons/magnifying-glass.png">
-    <a href="login.component.html">Log In</a>
+    <div id="search">
+        <img id="hover-glass-effect" src="/src/icons/magnifying-glass.png">
+        <input type="text">
+    </div>
+    <a href="register.component.html">Register</a>
     <a href="#">Register</a>
   </header>
   <main>
@@ -29,7 +32,13 @@
       <h1>Outstanding projects</h1>
       <div>
         <h2>Finished projects</h2>
-
+        <ol>
+          <li *ngFor='let project of projects;'>
+            {{project.name}} <br>
+            {{project.desc}} <br>
+            <!-- {{project.likes}} ???????-->
+          </li>
+        </ol>
       </div>
       <div>
         <h2>On going projects</h2>
@@ -37,7 +46,16 @@
     </div>
 
   </main>
-  <footer></footer>
+  <footer>
+
+    <div>
+      <a href="#">About LapWork</a> <br>
+      <a href="#">Contact us</a> <br>
+      Copyrigth 2019 LapWork Inc. All rigths reserved. <br>
+      <a href="#">Privacy Pocicy</a>
+
+    </div>
+  </footer>
 </body>
 
 </html>

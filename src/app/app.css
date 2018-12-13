@@ -17,6 +17,12 @@ body header h2 {
   width: fit-content;
   height: fit-content;
 }
+body header #hover-glass-effect {
+  cursor: pointer;
+  /* transform: perspective(1px) translateZ(0);
+  transition-duration: 0.3s;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); */
+}
 body header img {
   width: 16px;
   height: 16px;
@@ -53,6 +59,27 @@ body main div a {
 }
 body main div img {
   margin: 10px 0px 0px 0px;
+}
+body footer {
+  background-color: #323232;
+  display: -webkit-box;
+  height: 100px;
+  color: #a7a7a7;
+  font-size: 11px;
+  text-align: center !important;
+}
+body footer div {
+  position: relative;
+  top: 21px;
+  left: 40%;
+  height: 65px;
+}
+body footer div a {
+  text-decoration: none;
+  color: #a7a7a7;
+}
+body footer div a:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=app.css.map */
