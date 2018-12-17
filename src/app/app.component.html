@@ -15,22 +15,22 @@
   <header>
     <h2>LapWork</h2>
     <div id="search">
-        <img id="hover-glass-effect" src="/src/icons/magnifying-glass.png">
-        <input type="text">
+      <img id="hover-glass-effect" src="/src/icons/magnifying-glass.png">
+      <input type="text">
     </div>
     <a href="register.component.html">Register</a>
     <a href="#">Register</a>
   </header>
   <main>
-    <div>
+    <div> <!-- big one -->
       <h1>A new way to manage your project</h1>
       <p>Plan. Organize. Trak. In one visual cooperative way</p>
       <a href="#">Get started</a> <br> <!-- full info link -->
       <img src="/src/icons/table.jpeg" alt="table" width="600">
-    </div><!-- this is not finalized -->
-    <div>
+    </div><!-- big one -->  <!-- this is not finalized -->
+    <div><!-- big two -->
       <h1>Outstanding projects</h1>
-      <div>
+      <div><!-- big two.one -->
         <h2>Finished projects</h2>
         <ol>
           <li *ngFor='let project of projects;'>
@@ -39,23 +39,12 @@
             <!-- {{project.likes}} ???????-->
           </li>
         </ol>
-      </div>
-      <div>
+      </div><!-- bif two.one -->
+      <div><!-- bif two.two -->
         <h2>On going projects</h2>
-      </div>
-    </div>
-
+      </div><!-- bif two.two -->
+    </div><!-- big two -->
   </main>
-  <footer>
-
-    <div>
-      <a href="#">About LapWork</a> <br>
-      <a href="#">Contact us</a> <br>
-      Copyrigth 2019 LapWork Inc. All rigths reserved. <br>
-      <a href="#">Privacy Pocicy</a>
-
-    </div>
-  </footer>
 </body>
 
 </html>
