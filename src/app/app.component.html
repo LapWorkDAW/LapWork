@@ -4,7 +4,7 @@
     <img id="clickSearch" src="/src/icons/magnifying-glass.png">
     <input id="inputSearch" type="text"><!-- TO DO -> ADD app.js to app.component.ts -->
   </div>
-  <a [routerLink]="[]" href="register.component.html">Register</a> <!-- hacer link ANGULAR linkando a register -->
+  <a [routerLink]="[register]">Register</a> <!-- hacer link ANGULAR linkando a register -->
   <a href="#">Log In</a>
 </header>
 <main>
@@ -32,3 +32,4 @@
     </div><!-- bif two.two -->
   </div><!-- big two -->
 </main>
+<router-outlet></router-outlet>
