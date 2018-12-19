@@ -1,13 +1,9 @@
-body {
-  margin: 0px !important;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-body header {
+header {
   background: #020202c7;
   color: #fff;
   height: 40px;
 }
-body header h2 {
+header h2 {
   margin: 0px;
   font-weight: 400;
   position: relative;
@@ -17,13 +13,13 @@ body header h2 {
   width: fit-content;
   height: fit-content;
 }
-body header #hover-glass-effect {
+header #hover-glass-effect {
   cursor: pointer;
   /* transform: perspective(1px) translateZ(0);
-  transition-duration: 0.3s;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0); */
+      transition-duration: 0.3s;
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0); */
 }
-body header img {
+header img {
   width: 16px;
   height: 16px;
   display: inline-block;
@@ -31,7 +27,7 @@ body header img {
   left: 28%;
   top: 11px;
 }
-body header a {
+header a {
   text-decoration: none;
   cursor: pointer;
   color: #fff;
@@ -42,23 +38,25 @@ body header a {
   font-size: 15px;
   padding: unset;
 }
-body header a:hover {
+header a:hover {
   color: #4285F4;
   transition-timing-function: ease-in;
 }
-body main {
+
+main {
   text-align: center;
 }
-body main div {
+main div {
   position: relative;
   margin: 52px 0px 0px 0px;
 }
-body main div a {
+main div a {
   text-decoration: none;
   cursor: pointer;
 }
-body main div img {
+main div img {
   margin: 10px 0px 0px 0px;
+  color: #ccc;
 }
 
 /*# sourceMappingURL=app.css.map */

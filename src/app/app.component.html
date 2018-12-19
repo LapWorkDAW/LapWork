@@ -1,50 +1,52 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>LapWork</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="app.css" />
   <script src="app.component.ts"></script>
-  <!-- logo -->
 </head>
 
-<body>
-  <header>
-    <h2>LapWork</h2>
-    <div id="search">
-      <img id="hover-glass-effect" src="/src/icons/magnifying-glass.png">
-      <input type="text">
-    </div>
-    <a href="register.component.html">Register</a>
-    <a href="#">Register</a>
-  </header>
-  <main>
-    <div> <!-- big one -->
-      <h1>A new way to manage your project</h1>
-      <p>Plan. Organize. Trak. In one visual cooperative way</p>
-      <a href="#">Get started</a> <br> <!-- full info link -->
-      <img src="/src/icons/table.jpeg" alt="table" width="600">
-    </div><!-- big one -->  <!-- this is not finalized -->
-    <div><!-- big two -->
-      <h1>Outstanding projects</h1>
-      <div><!-- big two.one -->
-        <h2>Finished projects</h2>
-        <ol>
-          <li *ngFor='let project of projects;'>
-            {{project.name}} <br>
-            {{project.desc}} <br>
-            <!-- {{project.likes}} ???????-->
-          </li>
-        </ol>
-      </div><!-- bif two.one -->
-      <div><!-- bif two.two -->
-        <h2>On going projects</h2>
-      </div><!-- bif two.two -->
-    </div><!-- big two -->
-  </main>
-</body>
+<body> -->
+<header>
+  <h2>LapWork</h2>
+  <div id="search">
+    <img id="hover-glass-effect" src="/src/icons/magnifying-glass.png">
+    <input type="text">
+  </div>
+  <a href="register.component.html">Register</a>
+  <a href="#">Register</a>
+</header>
+<main>
+  <div>
+    <!-- big one -->
+    <h1>A new way to manage your project</h1>
+    <p>Plan. Organize. Trak. In one visual cooperative way</p>
+    <a href="#">Get started</a> <br> <!-- full info link -->
+    <img src="/src/icons/table.jpeg" alt="table" width="600">
+  </div><!-- big one -->
+  <!-- this is not finalized -->
+  <div>
+    <!-- big two -->
+    <h1>Outstanding projects</h1>
+    <div>
+      <!-- big two.one -->
+      <h2>Finished projects</h2>
+      <ol>
+        <li *ngFor='let project of projects;'>
+          {{project.name}} <br>
+          {{project.desc}} <br>
+          <!-- {{project.likes}} ???????-->
+        </li>
+      </ol>
+    </div><!-- bif two.one -->
+    <div>
+      <!-- bif two.two -->
+      <h2>On going projects</h2>
+    </div><!-- bif two.two -->
+  </div><!-- big two -->
+</main>
+<!-- </body>
 
-</html>
+</html> -->
