@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.css']
+  /* TODO --> add app.js */
 })
 export class AppComponent {
   projects = [{

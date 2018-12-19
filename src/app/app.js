@@ -1,4 +1,7 @@
 $(document).ready(init);
 function init(){
-    $().hide();
+    $("#clickSearch").click(toggleSearch);
+}
+function toggleSearch(){
+    $("#inputSearch").toggle();
 }

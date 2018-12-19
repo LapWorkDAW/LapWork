@@ -13,19 +13,32 @@ header h2 {
   width: fit-content;
   height: fit-content;
 }
-header #hover-glass-effect {
-  cursor: pointer;
-  /* transform: perspective(1px) translateZ(0);
-      transition-duration: 0.3s;
-      box-shadow: 0 0 1px rgba(0, 0, 0, 0); */
-}
-header img {
-  width: 16px;
-  height: 16px;
+header #search {
   display: inline-block;
+  position: relative;
+  top: -8px;
+  left: 29%;
+  height: 22px;
+}
+header #search img {
+  width: 16px;
+  top: -1px;
   position: absolute;
-  left: 28%;
-  top: 11px;
+}
+header #search img:hover {
+  cursor: pointer;
+}
+header #search input {
+  border: #9E9E9E 1px solid;
+  border-radius: 4px;
+  height: 20px;
+  padding: 3px 18px 5px 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: absolute;
+  top: -7px;
+  left: -1px;
+  width: 248px;
+  display: none;
 }
 header a {
   text-decoration: none;
@@ -33,7 +46,7 @@ header a {
   color: #fff;
   position: relative;
   right: -66%;
-  top: -12px;
+  top: -16px;
   margin: 0px 40px 0px 0px;
   font-size: 15px;
   padding: unset;
