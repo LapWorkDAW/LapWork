@@ -58,18 +58,27 @@ header a:hover {
 
 main {
   text-align: center;
+  background-color: #FAFAFA;
 }
-main div {
+main #one, main #two {
+  padding: 10px 0px 36px 0px;
   position: relative;
-  margin: 52px 0px 0px 0px;
 }
-main div a {
+main #one a, main #two a {
   text-decoration: none;
   cursor: pointer;
 }
-main div img {
+main #one img, main #two img {
   margin: 10px 0px 0px 0px;
   color: #ccc;
+}
+main #two {
+  margin: 16px 0px 0px 0px !important;
+  background-color: #fff;
+}
+main #two div {
+  text-align: initial;
+  display: inline-block;
 }
 
 /*# sourceMappingURL=app.css.map */

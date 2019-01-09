@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-
-@Component({
+/* import './app.js';
+ */@Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.css']
+
   /* TODO --> add app.js */
 })
 export class AppComponent {
@@ -16,8 +17,8 @@ export class AppComponent {
     dateStart: "10/12/2018",
     dateFinish: "29/06/2018",
     img: "",
-    projectStatus: ""
-    /* likes:"" */
+    projectStatus: "0"
+    /* likes:"" projectstatus 1 acabat 0no acabat */
   }, {
     idProject: "2",
     creator: "Mireia Colomer",
@@ -27,7 +28,7 @@ export class AppComponent {
     dateStart: "10/12/2018",
     dateFinish: "29/06/2018",
     img: "",
-    projectStatus: ""
+    projectStatus: "1"
     /* likes:"" */
   }];
   project = {

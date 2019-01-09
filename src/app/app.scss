@@ -27,7 +27,7 @@ header {
             top: -1px;
             position: absolute;
         }
-        img:hover{
+        img:hover {
             cursor: pointer;
         }
         input {
@@ -62,9 +62,10 @@ header {
 
 main {
     text-align: center;
-    div {
+    background-color: #FAFAFA;
+    #one, #two{
+        padding: 10px 0px 36px 0px;
         position: relative;
-        margin: 52px 0px 0px 0px;
         a {
             text-decoration: none;
             cursor: pointer;
@@ -72,6 +73,14 @@ main {
         img {
             margin: 10px 0px 0px 0px;
             color: #ccc;
+        }
+    }
+    #two {
+        margin: 16px 0px 0px 0px !important;
+        background-color: #fff;
+        div{
+            text-align: initial;
+            display: inline-block;
         }
     }
 }
